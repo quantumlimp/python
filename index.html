@@ -1,0 +1,38 @@
+<html>
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="domManager.js"></script>
+		<div id="error"  </div>
+		<div> 
+			<input type="Button" id="new" value="New" align="left" onclick="showForm()" /> 
+			<input type="Button" id="cancel" value="Cancel" align="right" style="display:none;" onclick="hideForm()"/> 
+		</div>
+
+	<div> 
+		<input type="text" id="text_field"/> 
+		<input type="Button" id="SEARCH" value="Search" onclick="getAppointments()"/> 
+	</div>
+	<form id="form1" name="form1" style="display:none;"> 
+			<table> 
+				<tr> 
+					<td>Date</td> 
+					<td>
+						<input type="text" name="Date" value="Date"/> 
+					</td> 
+				</tr> 
+				<tr> 		
+					<td> Time</td> 
+					<td>
+						<input type="text" name="time" value="Time"/> 
+					</td> 
+				</tr> 
+				<tr> 	
+					<td> Time</td> 
+					<td>
+						<input type="text" name="description" value="Description"/> 
+					</td>				
+				</tr> 
+			</table> 
+		</form> 
+	</body>
+</html>
